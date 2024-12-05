@@ -5,7 +5,7 @@ int main() {
     int n = sizeof(arr) / sizeof(arr[0]);
     int count[100] = {0}; 
     for (int i = 0; i < n; i++) {
-        count[arr[i]]++;
+        count[arr[i]]++;;
     }
     int max_count = 0;
     for (int i = 0; i < 100; i++) {
